@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>لِزينب</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="sky" aria-hidden="true">
+  <div class="cloud cloud-a"></div>
+  <div class="cloud cloud-b"></div>
+  <div class="cloud cloud-c"></div>
+  <div id="floaters"></div>
+</div>
+
+<main id="app">
+
+  <!-- الصفحة الأولى -->
+  <section class="screen" id="screen1">
+    <div class="card">
+      <div class="ribbon">🎀</div>
+      <p class="eyebrow">A LITTLE LOVE</p>
+      <h1 class="name-en">ZAINAB</h1>
+      <div class="divider"></div>
+      <p class="lead">عندي لج رسالة صغيرة من كلبي...</p>
+      <div class="pulse-heart">❤️</div>
+      <button id="openBtn" class="btn-main">
+        <span>🎀 افتحيها يا زينب</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- الصفحة الثانية -->
+  <section class="screen hidden" id="screen2">
+    <div class="card card-letter">
+      <div class="ribbon">💗</div>
+      <p class="eyebrow">TO MY ZAINAB</p>
+      <h1 class="name-ar">زَيْنَب</h1>
+      <div class="divider"></div>
+      <div class="letter" id="letterText"></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
